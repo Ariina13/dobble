@@ -1,0 +1,65 @@
+/*CSS Attribute Selector */
+[class*=" icon-"]:before{
+
+}
+
+/* Symbole und ihre Quelle */
+/* Bilder in Ordner Media durchnummerieren */
+.icon-0:before { content: url(../media/0.png); }   
+.icon-1:before { content: url(../media/1.png); }   
+.icon-2:before { content: url(../media/2.png); } 
+.icon-3:before { content: url(../media/3.png); } 
+.icon-4:before { content: url(../media/4.png); } 
+.icon-5:before { content: url(../media/5.png); } 
+.icon-6:before { content: url(../media/6.png); } 
+.icon-7:before { content: url(../media/7.png); } 
+.icon-8:before { content: url(../media/8.png); } 
+.icon-9:before { content: url(../media/9.png); } 
+.icon-10:before { content: url(../media/10.png); } 
+.icon-11:before { content: url(../media/11.png); } 
+.icon-12:before { content: url(../media/12.png); } 
+.icon-13:before { content: url(../media/13.png); } 
+.icon-14:before { content: url(../media/14.png); } 
+.icon-15:before { content: url(../media/15.png); } 
+.icon-16:before { content: url(../media/16.png); } 
+.icon-17:before { content: url(../media/17.png); }   
+.icon-18:before { content: url(../media/18.png); } 
+.icon-19:before { content: url(../media/19.png); } 
+.icon-20:before { content: url(../media/20.png); } 
+.icon-21:before { content: url(../media/21.png); } 
+.icon-22:before { content: url(../media/22.png); } 
+.icon-23:before { content: url(../media/23.png); } 
+.icon-24:before { content: url(../media/24.png); } 
+.icon-25:before { content: url(../media/25.png); } 
+.icon-26:before { content: url(../media/26.png); } 
+.icon-27:before { content: url(../media/27.png); } 
+.icon-28:before { content: url(../media/28.png); } 
+.icon-29:before { content: url(../media/29.png); } 
+.icon-30:before { content: url(../media/30.png); } 
+.icon-31:before { content: url(../media/31.png); } 
+.icon-32:before { content: url(../media/32.png); } 
+.icon-33:before { content: url(../media/33.png); }   
+.icon-34:before { content: url(../media/34.png); } 
+.icon-35:before { content: url(../media/35.png); } 
+.icon-36:before { content: url(../media/36.png); } 
+.icon-37:before { content: url(../media/37.png); } 
+.icon-38:before { content: url(../media/38.png); } 
+.icon-39:before { content: url(../media/39.png); } 
+.icon-40:before { content: url(../media/40.png); } 
+.icon-41:before { content: url(../media/41.png); } 
+.icon-42:before { content: url(../media/42.png); } 
+.icon-43:before { content: url(../media/43.png); } 
+.icon-44:before { content: url(../media/44.png); } 
+.icon-45:before { content: url(../media/45.png); } 
+.icon-46:before { content: url(../media/46.png); } 
+.icon-47:before { content: url(../media/47.png); } 
+.icon-48:before { content: url(../media/48.png); } 
+.icon-49:before { content: url(../media/49.png); } 
+.icon-50:before { content: url(../media/50.png); } 
+.icon-51:before { content: url(../media/51.png); } 
+.icon-52:before { content: url(../media/52.png); } 
+.icon-53:before { content: url(../media/53.png); } 
+.icon-54:before { content: url(../media/54.png); } 
+.icon-55:before { content: url(../media/55.png); } 
+.icon-56:before { content: url(../media/56.png); } 
+.icon-57:before { content: url(../media/57.png); } 

@@ -1,0 +1,97 @@
+
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+
+body {
+  color: #585858;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.einblendung {
+  flex-direction: column;
+  align-items: center;
+}
+
+.schaltflaeche {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  border-radius: 5px;
+  margin: .5em;
+  padding: .25em;
+}
+
+.feedback {
+  font-style: bold;
+}
+
+/* Spielfeld */
+.karte {
+  /* Kartenfarbe */
+  background-color: #f1abab;
+  /* Kartenrand */
+  border: 0.2em solid rgb(95, 70, 37);
+  /* Kartenform */
+  border-radius: 50%;
+  /* Grösse der Karten */
+  height: 13.8em;
+  width: 13.8em;
+  /* Schatten */
+  box-shadow: 0 0 3px 3px rgba(0,0,0,.15);
+  /* Für Positionierung der Symbole */
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Abstand zwischen den zwei Karten */
+  margin-top: 1em;
+}
+
+/* Symbole auf der Karte */
+button {
+  /* Mauscursor über einem Symbol */
+  cursor: pointer;
+  /* randlos */
+  border: 0;
+}
+
+/* Symbole */
+button[class^="icon-"] {
+  /* Für png */
+  background: transparent;
+}
+
+/* Positionierung der Symbole */
+/* Zum Beispiel um Symbole noch zu rotieren */
+button[class^="icon-"]:nth-child(1) {
+  transform: rotate(-20deg);
+}
+button[class^="icon-"]:nth-child(2) {
+}
+button[class^="icon-"]:nth-child(3) { 
+  transform: rotate(30deg); 
+}
+button[class^="icon-"]:nth-child(4) {
+
+}
+button[class^="icon-"]:nth-child(5) {
+
+}
+button[class^="icon-"]:nth-child(6) {
+
+}
+button[class^="icon-"]:nth-child(7) {
+  transform: rotate(30deg);
+}
+button[class^="icon-"]:nth-child(8) {
+  transform: rotate(-30deg);
+}
+
+
+

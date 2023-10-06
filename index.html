@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOBBLE online</title>
+  <link rel="stylesheet" href="css/symbole.css">
+  <link rel="stylesheet" href="css/spiel.css">
+  
+  <meta charset="utf-8"/>
+  <meta name="description" content="Online Spielvariante von Dobble"/>
+  <meta name="keywords" content="Dobble, Dobble online"/>
+  <meta name="author" content="Marina I." />
+  <meta name="robots" content="index"/>
+
+  <audio id="audioright" preload="auto">
+    <source src='media/right.mp3' type="audio/mpeg"/>
+  </audio>
+  <audio id="audiowrong" preload="auto">
+    <source src='media/wrong.mp3' type="audio/mpeg"/>
+  </audio>
+  
+</head>
+<body>
+
+  <div class="ueberschrift"><h1>DOBBLE online</h1></div>
+  <div class="spielanleitung"><p>Finde das übereinstimmende Symbol beider Karten. 
+  </br>Für jede gefundene Übereinstimmung erhälst du einen Punkt. 
+  </br>Achtung, wenn du das falsche Symbol anklickst, dann wird dir ein Punkt abgezogen. 
+  </br>Du hast 30 Sekunden Zeit!</p></div> 
+  <!-- Startknopf und Schwierigkeitswahl verschwinden während dem Spiel -->
+  <div class="einblendung">
+      <div class="schaltflaechen">
+        <button id="play" class="schaltflaeche">Spiel starten!</button>
+        <select name="schwierigkeitsstufe" id="schwierigkeitsstufe">
+          <!-- Value + 1 = Anzahl Symbole die auf einer Karte angezeigt werden -->
+          <option value="5">Einfach</option>
+          <option value="6">Mittel</option>
+          <option value="7">Schwer</option>
+        </select>
+      <!-- Value + 1 = Spielergebnis anzeigen -->
+      <div class="feedbackbox">
+        <div class="feedback"></div>
+      </div>
+      </div>
+  </div>
+
+  <div id="statusleiste" style="display: none;">
+  </br>
+    <div class="timer">Verbleibende Zeit: <span class="counter"></span></div>
+    <div class="punktestand">Deine Punktzahl: <span class="counter">0</span></div>
+  </div>
+
+  <div class="spielfeld">
+    <div class="karte"></div>
+    <div class="karte"></div>
+  </div>
+
+
+<script src="js/skript.js"></script>
+</body>
+</html>
+
